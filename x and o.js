@@ -51,9 +51,9 @@ function XO(str) {
  str = str.toUpperCase();
  var xx=0;
  for (var i = 0; i<str.length; i++) {
-   if (str[i] === "x") {
+   if (str[i] === "X") {
      xx +=1
-   } else if (str[i] === "o") {
+   } else if (str[i] === "O") {
      xx-=1
    } else {
      continue;
