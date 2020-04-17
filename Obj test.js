@@ -43,3 +43,31 @@ function multiplyNumeric(obj) {
 }
 
 console.log(multiplyNumeric(menu));
+
+//Object sarqox functia, vor amen angam nuyn ban@ cgrvi
+
+function personC (name, surname, age) {
+  return {
+    name: name;
+    surname,
+    age
+  }
+}
+
+let obj1 = personC("Karen", "Bagdasaryan", 28);
+
+//constructor function@ senc en grum praktikayum
+
+function Person (name, surname, age) {
+  // this = {}
+  // function body ex
+  this.name = name;
+  this.surname = surname;
+  this.age = age;
+  //return this   
+}
+
+let person = new Person('Hovik','Mamikonyan', 28);
+
+//stugelu hamar, targmanabar instance nshanakuma "orinak"
+person instanceof Person;
